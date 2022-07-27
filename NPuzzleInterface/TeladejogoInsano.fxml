@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.poli.NPuzzleInterface.TeladejogoInsanoController">
+   <children>
+      <TextField fx:id="FieldordenadaX" layoutX="54.0" layoutY="175.0" />
+      <TextField fx:id="FieldordenadaY" layoutX="54.0" layoutY="214.0" />
+      <TextField fx:id="TextMovimento" layoutX="54.0" layoutY="257.0" />
+      <Label layoutX="226.0" layoutY="179.0" prefHeight="25.0" prefWidth="72.0" text="X" />
+      <Label layoutX="226.0" layoutY="220.0" prefHeight="25.0" prefWidth="51.0" text="Y" />
+      <Label layoutX="226.0" layoutY="257.0" prefHeight="25.0" prefWidth="72.0" text="Movimento" />
+      <Button fx:id="BotãodeMovimento" layoutX="54.0" layoutY="306.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Fazer movimento" />
+      <Button fx:id="Botãofinalizador" layoutX="387.0" layoutY="306.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Finalizar jogo" />
+      <Label fx:id="Nome" layoutX="387.0" layoutY="150.0" prefHeight="25.0" prefWidth="139.0" text="Label" />
+      <Label fx:id="ndemovimentos" layoutX="372.0" layoutY="188.0" prefHeight="25.0" prefWidth="192.0" text="Label" />
+   </children>
+</Pane>
